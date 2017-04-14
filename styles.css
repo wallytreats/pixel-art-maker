@@ -1,0 +1,162 @@
+button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-weight: normal;
+  text-shadow: 3px 3px 3px #666666;
+  font-family: Courier New;
+  color: #000000;
+  font-size: 20px;
+  background: #05FF0D;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align:center;
+}
+
+button:hover {
+  background: #1100FF;
+  text-decoration: none;
+}
+
+.greenblue {
+font-weight:normal;
+text-shadow: 3px 3px 3px #666666;
+color:#000000;
+background-color:#05FF0D;
+border: 5px solid #1100FF;
+letter-spacing:1pt;
+word-spacing:2pt;
+font-size:35px;
+text-align:center;
+font-family:courier new, courier, monospace;
+line-height:1;
+}
+
+input {
+  font-weight: normal;
+  text-align:center;
+  font-size:23px;
+  font-family:courier new, courier, monospace;
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+  margin: 0 auto;
+}
+
+#worksbest {
+  font-family:courier new, courier, monospace;
+}
+
+#colorSelector {
+  border-style: solid;
+  border-color: black;
+}
+
+.pos{
+  right: 0;
+  padding-right: 50px;
+  position: fixed;
+  height: 397px;
+  width: 30px;
+  font-size: 1em;
+  display: block;
+  background-color: white;
+}
+
+#grid {
+  position: relative;
+  text-align: center;
+  width: 90vw;
+  height: 5vw;
+  position: absolute;
+  float: left;
+}
+
+#colors {
+  font-weight:normal;
+  margin: 0 auto;
+  color:#000000;
+  letter-spacing:1pt;
+  word-spacing:2pt;
+  font-size:23px;
+  text-align:center;
+  font-family:courier new, courier, monospace;
+  line-height:1;
+}
+
+#red {
+  height: 25px;
+  width: 50px;
+  display: block;
+  border-style: solid;
+  background-color: red;
+}
+
+#green {
+  height: 25px;
+  width: 50px;
+  display: block;
+  border-style: solid;
+  background-color: green;
+}
+
+#blue {
+  height: 25px;
+  width: 50px;
+  border-style: solid;
+  background-color: blue;
+}
+
+#yellow {
+  height: 25px;
+  width: 50px;
+  border-style: solid;
+  background-color: yellow;
+}
+
+#orange {
+  height: 25px;
+  width: 50px;
+  border-style: solid;
+  background-color: rgb(255, 125, 0);
+}
+
+#black {
+  height: 25px;
+  width: 50px;
+  border-style: solid;
+
+  background-color: black;
+}
+
+#white {
+  height: 25px;
+  width: 50px;
+  border-style: solid;
+  background-color: white;
+}
+
+#purple {
+  height: 25px;
+  width: 50px;
+  border-style: solid;
+  background-color: purple;
+}
+
+#colorOnDeck {
+  height: 25px;
+  width: 50px;
+  border-style: solid;
+  background-color: white;
+}
+
+#normaltext {
+  font-weight: normal;
+  font-size:23px;
+  font-family:courier new, courier, monospace;
+  padding: 10px;
+}
+
+footer {
+  bottom: 0;
+}
