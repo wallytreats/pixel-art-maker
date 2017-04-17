@@ -67,7 +67,7 @@ grid.addEventListener('click', function (event) {
 function makeGrid (userInput){
   for (i=0; i < userInput; i++){
   var tile = document.createElement('div');
-  var cols = 10;
+  // var cols = 10;
   tile.style.width = '1%';
   tile.style.float = 'left';
   tile.style.paddingBottom = '1%';
